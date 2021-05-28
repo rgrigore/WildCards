@@ -16,7 +16,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class GameController {
     private final GameService service;
 
-    private static final List<String> strings = Arrays.asList("aaa", "bbb", "ccc", "ddd"); // Testing
+    private static final List<String> strings = Arrays.asList("aaa", "bbb", "ccc", "ddd", "eee", "fff", "ggg", "hhh"); // Testing
 
     @GetMapping("/random")
     public String getRandomString() {
